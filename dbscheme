@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[lottoHistories] (
+    [Date]    DATETIME    NOT NULL,
+    [Mid_Day] VARCHAR (7) NOT NULL,
+    [Pk1]     VARCHAR (2) NOT NULL,
+    [Pk2]     VARCHAR (2) NOT NULL,
+    [Pk3]     VARCHAR (2) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Date] ASC)
+);
+
